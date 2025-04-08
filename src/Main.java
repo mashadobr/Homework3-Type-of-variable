@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         //задача 1
+        System.out.println("Задача 1");
         int a = 33000;
         byte b = 100;
         short c = 500;
@@ -14,8 +15,10 @@ public class Main {
         System.out.println("Значение переменной a с типом long равно " + d);
         System.out.println("Значение переменной a с типом float равно " + e);
         System.out.println("Значение переменной a с типом doublr равно " + f);
+        System.out.println("__________________________________________________ ");
 
         //задача 2
+        System.out.println("Задача 2");
         float g = 22.12f;
         long i = 987678965549L;
         float k = 2.786f;
@@ -23,8 +26,10 @@ public class Main {
         short m = -159;
         short o = 27897;
         byte p = 67;
+        System.out.println("__________________________________________________ ");
 
         //задача 3
+        System.out.println("Задача 3");
         byte studentsLP = 23;
         byte studentsAS = 27;
         byte studentsEA = 30;
@@ -32,23 +37,22 @@ public class Main {
         int totalStudents = studentsLP + studentsAS + studentsEA;
         int listsFor1student = paperLists / totalStudents;
         System.out.println("На каждого ученика рассчитано " + listsFor1student + " листов бумаги");
+        System.out.println("__________________________________________________ ");
 
         //задача 4
+        System.out.println("Задача 4");
         byte bottleFor1min = 16 / 2;
-        byte min = 20;
-        int bottleFormin = bottleFor1min * min;
-        System.out.println("За " + min + " минут машина произвела " + bottleFormin + " штук бутылок");
-        int day = 1;
-        int bottleForDays = bottleFor1min * 60 * 24 * day;
-        System.out.println("За 1 сутки машина произвела " + bottleForDays + " штук бутылок");
-        day = 3;
-        bottleForDays = bottleFor1min * 60 * 24 * day;
-        System.out.println("За " + day + " дня машина произвела " + bottleForDays + " штук бутылок");
-        day = 30;
-        int bottleforDay = bottleForDays * day;
-        System.out.println("За месяц машина произвела " + bottleforDay + " штук бутылок");
-
+        int bottleFor20Min = bottleFor1min * 20;
+        int bottleFor1Day = bottleFor1min * 60 * 24;
+        int bottleFor3Days = bottleFor1Day * 3;
+        int bottlefor1Mounth = bottleFor1Day * 30;
+        System.out.println("За 20 минут машина произвела " + bottleFor20Min + " штук бутылок");
+        System.out.println("За 1 сутки машина произвела " + bottleFor1Day + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + bottleFor3Days + " штук бутылок");
+        System.out.println("За месяц машина произвела " + bottlefor1Mounth + " штук бутылок");
+        System.out.println("__________________________________________________ ");
         //задача 5
+        System.out.println("Задача 5");
         byte totalCan = 120;
         byte whiteCanFor1Class = 2;
         byte brownCanFor1Class = 4;
@@ -57,8 +61,10 @@ public class Main {
         int totalBrown = brownCanFor1Class * totalClassroom;
         System.out.println("В школе, где " + totalClassroom + " классов, нужно " + totalWhite +
                 " банок белой краски и " + totalBrown + " банок коричневой краски");
+        System.out.println("__________________________________________________ ");
 
         //задача 6
+        System.out.println("Задача 6");
         byte weightBanana = 80;
         byte totalBananas = 5;
         byte weightMilk100Ml = 105;
@@ -72,8 +78,10 @@ public class Main {
         float totalWeightKg = (float) totalWeightGr / 1000;
         System.out.println("Вес завтрака спортсмена в граммах " + totalWeightGr +
                 " грамм, в килограммах " + totalWeightKg + " кг");
+        System.out.println("__________________________________________________ ");
 
         //задача 7
+        System.out.println("Задача 7");
         int overweightGr = 7000;
         short wasteWeight = 250;
         int dayForWasteWeight1 = overweightGr / wasteWeight;
@@ -85,9 +93,10 @@ public class Main {
                 " дней для похудения, если спортсмен будет терять каждый день по " + wasteWeight + " грамм");
         int averageNumberDay = (dayForWasteWeight1 + dayForWasteWeight2) / 2;
         System.out.println("В среднем потребуется " + averageNumberDay + " дней для похудения");
-
+        System.out.println("__________________________________________________ ");
 
         //задача 8
+        System.out.println("Задача 8");
         float mounthSalaryMasha = 67760;
         float mounthSalaryDenis = 83690;
         float mounthSalaryKris = 76230;
@@ -110,6 +119,7 @@ public class Main {
         System.out.println("Кристина теперь получает " + mounthSalaryKris + " рублей. Годовой доход вырос на " +
 
                 (yearSalaryKris2 - yearSalaryKris1) + " рублей");
+        System.out.println("__________________________________________________ ");
 
 
     }
